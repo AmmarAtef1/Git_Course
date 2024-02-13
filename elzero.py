@@ -53,7 +53,7 @@ vjdkbv
 # print(type(-50))                  #=> int     (Integer)
 # print(type(10.9))                 #=> float   (floating point number)
 # print(type(-100.9595))            #=> float   (Floating Point Number)
-# print(type("HELLOW"))             #=> str     (string) 
+# print(type("Hello"))             #=> str     (string) 
 # print(type([1, 2, 3, 4, 5]))       #=> list    (list) 
 # print(type({1, 2, 3, 4, 5}))       #=> set     (set)
 # print(type((1,2,3,4,5)))           #=> tuple   (tuple)
@@ -277,7 +277,7 @@ vjdkbv
 
 
 # Note: Can only concatenate str (not "int") to str
-# print("hellow" + 1)       # => TypeError: can only concatenate str (not "int") to str
+# print("Hello" + 1)       # => TypeError: can only concatenate str (not "int") to str
 
 # _________________________________________________________________________________________________
 
@@ -644,10 +644,10 @@ vjdkbv
 #                                   18) expandstab(# of tabs)
 # makes tabs or spaces and you can control of its number
 
-# f="Hellow\tworld\tI\tam\tAmmar"
-# print(f)               # Hellow  world   I       am      Ammar
-# print(f.expandtabs(1)) # only one tab or space: Hellow world I am Ammar
-# print(f.expandtabs(2)) # only 2 tabs(spaces): Hellow  world I am  Ammar
+# f="Hello\tworld\tI\tam\tAmmar"
+# print(f)               # Hello  world   I       am      Ammar
+# print(f.expandtabs(1)) # only one tab or space: Hello world I am Ammar
+# print(f.expandtabs(2)) # only 2 tabs(spaces): Hello  world I am  Ammar
 
 
 
@@ -857,10 +857,10 @@ vjdkbv
 #                                    Items Rearrangement
 
 # a,b,c= "one", "two", "three"
-# print("Hello {} {} {}" .format(a,b,c))       # Hellow one two three
-# print("Hello {} {} {}" .format(b,a,c))       # Hellow two one three
-# print("Hello {1} {2} {0}" .format(a,b,c))    # Hellow two three one
-# print("Hello {2} {0} {1}". format(a,b,c))    # Hellow three one two 
+# print("Hello {} {} {}" .format(a,b,c))       # Hello one two three
+# print("Hello {} {} {}" .format(b,a,c))       # Hello two one three
+# print("Hello {1} {2} {0}" .format(a,b,c))    # Hello two three one
+# print("Hello {2} {0} {1}". format(a,b,c))    # Hello three one two 
 
 # print("Hello {2} {0} {}".format(a,b,c))      #ValueError
 # print("Hello {2} {} {}".format(a,b,c))       #ValueError
@@ -870,7 +870,7 @@ vjdkbv
 # print("Hello {} {}".format(a,b))        # => Hello one two
 
 # x,y,z= 10,20,30
-# print("Hello {} {} {}" .format(x,y,z))                 # Hellow 10 20 30
+# print("Hello {} {} {}" .format(x,y,z))                 # Hello 10 20 30
 # print("Hello {1:d} {2:d} {0:d}".format(x, y, z))       # Hello 20 30 10
 # print("Hello {2:f} {0:f} {1:f}".format(x, y, z))       # Hello 30.000000 10.000000 20.000000
 # print("Hello {2:.2f} {0:.4f} {1:.5f}".format(x, y, z)) # Hello 30.00 10.0000 20.00000
@@ -3319,9 +3319,9 @@ vjdkbv
 # ----------------------------------- Practical Slice Email (39) -------------------------------------
 # ----------------------------------------------------------------------------------------------------
 
-email = "ammar@atef.gmail.com"
-print(email[0])        # a
-print(email[:5])       # ammar
+# email = "ammar@atef.gmail.com"
+# print(email[0])        # a
+# print(email[:5])       # ammar
 
 
 
@@ -4312,9 +4312,9 @@ print(email[:5])       # ammar
 
 
 # def function_name():
-#     return'Hellow python from an inside function' 
+#     return'Hello python from an inside function' 
 # data_from_function = function_name()
-# print(data_from_function)            # Hellow python from an inside function
+# print(data_from_function)            # Hello python from an inside function
 # print(data_from_function[7:14])      #  python 
 
 # __________________________________________________________________________________________________________
