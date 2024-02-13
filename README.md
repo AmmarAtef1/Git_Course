@@ -1,3 +1,3 @@
-# Git_Course
+# Python_Course
 Ammar Atef and his codes 
 ## Proejct Notes
